@@ -19,6 +19,7 @@
 
 apply plugin: 'com.android.application'
 
+// ...
 buildscript {
     repositories {
         mavenCentral()
@@ -260,8 +261,9 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     // SUB-PROJECT DEPENDENCIES END
-    implementation 'com.google.firebase:firebase-core:16.0.0'
-    implementation 'com.google.firebase:firebase-messaging:12.0.1'
+    implementation 'com.google.firebase:firebase-core:11.4.0'
+    implementation 'com.google.firebase:firebase-messaging:11.4.0'
+    implementation 'com.firebase:firebase-jobdispatcher:0.5.2'
 }
 
 def promptForReleaseKeyPassword() {
