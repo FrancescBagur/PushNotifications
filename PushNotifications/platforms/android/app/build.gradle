@@ -262,6 +262,7 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES END
     implementation 'com.google.firebase:firebase-core:16.0.0'
     implementation 'com.google.firebase:firebase-messaging:12.0.1'
+    implementation 'com.firebase:firebase-jobdispatcher:0.5.2'
 }
 
 def promptForReleaseKeyPassword() {
