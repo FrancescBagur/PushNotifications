@@ -1,8 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.firebase:firebase-jobdispatcher-0.5.2">
     <CLASSES>
+<<<<<<< HEAD
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.5.2.aar/f942864e44e8123c19094c9c9130148a/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.5.2.aar/f942864e44e8123c19094c9c9130148a/res" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.5.2.aar/e2848e264d85ed224994a0fed0a58936/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.5.2.aar/e2848e264d85ed224994a0fed0a58936/res" />
+>>>>>>> 7a8c18f7b267a9aa8d14db8dc643736ef2de0f03
     </CLASSES>
     <JAVADOC />
     <SOURCES>
