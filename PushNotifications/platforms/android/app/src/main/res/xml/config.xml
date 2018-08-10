@@ -1,24 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.globalomnium.FIORI"
-    version="1.0.0"
-    xmlns="http://www.w3.org/ns/widgets"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://cordova.apache.org/ns/1.0 ">
+<widget id="com.globalomnium.FIORI" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Whitelist">
-        <param
-            name="android-package"
-            value="org.apache.cordova.whitelist.WhitelistPlugin" />
-        <param
-            name="onload"
-            value="true" />
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
     </feature>
     <name>PushNotifications</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author
-        email="dev@cordova.apache.org"
-        href="http://cordova.io">
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
     <content src="index.html" />
@@ -30,7 +20,5 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
-    <preference
-        name="loglevel"
-        value="DEBUG" />
+    <preference name="loglevel" value="DEBUG" />
 </widget>
